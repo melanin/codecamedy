@@ -1,5 +1,14 @@
+/*You can do this! Write your CSS below.*/
+
+h3 {
+    color: red;
+    
+}
+
 p {
-    color: green;
-    font-family: Garamond;
-    font-size: 24px;
+    font-family: Courier;
+}
+
+span {
+    background-color: yellow;
 }
