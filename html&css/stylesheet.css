@@ -20,3 +20,11 @@ div {
 .enemy {
     border: 2px dashed #FF0000;
 }
+
+#best_friend {
+    border: 4px solid #00C957;
+}
+
+#archnemesis {
+    border: 4px solid #CC0000;
+}
