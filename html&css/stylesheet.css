@@ -1,18 +1,26 @@
-/*Add your CSS below!*/
-
 p {
-    font-family: Garamond;
+	font-family: Garamond, serif;
 }
 
-body > p {
-    font-weight: bold;
+#intro {
+	font-weight: bold;
+	color: #000000;
 }
 
-div > p {
-    color: #7AC5CD;
+div p {
+	color: #7AC5CD;
 }
 
-ul > li > p {
-    color: #000000;
-    text-decoration: underline;
+li p {
+	font-family: Verdana, sans-serif;
+	color: #000000;
+}
+
+.list_item {
+	font-family: Vivaldi, cursive;
+}
+
+#summary {
+	font-size: 20px;
+	color: #000000;
 }
