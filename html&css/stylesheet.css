@@ -9,7 +9,8 @@ div {
 	border-radius: 5px;
 	/*Add your CSS here!*/
 	/*display: block;*/
-	display: inline-block;
+	/*display: inline-block;*/
+	display: inline;
 }
 
 #one {
