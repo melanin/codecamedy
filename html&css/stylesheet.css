@@ -1,9 +1,10 @@
 h1 {
-    font-family: Verdana;
+    font-family: Verdana, sans-serif;
     color: #576D94;
 }
 
 p {
+    font-family: Garamond, serif;
     font-size: 18px;
     color: #4A4943;
 }
