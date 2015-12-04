@@ -1,6 +1,9 @@
 # codecamedy
-HTML & CSS
 
+
+###HTML & CSS
+
+* CSS box model
 ![ScreenShot](https://s3.amazonaws.com/codecademy-blog/assets/ae09140c.png)
 
-CSS box model(source : codecademy)
+> source : codecademy
