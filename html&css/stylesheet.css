@@ -8,3 +8,9 @@ p {
     font-size: 18px;
     color: #4A4943;
 }
+
+img {
+    height: 100px;
+    width: 300px;
+    border: 1px solid #4682b4
+}
