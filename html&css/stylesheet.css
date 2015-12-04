@@ -1,9 +1,13 @@
-h3 {
-	/*Add your CSS hex color here!*/
-	color: #cc6666;
+/*Add your CSS below!*/
+
+h1 {
+    font-family: serif;
 }
 
 h2 {
-	/*Add your CSS hex color here!*/
-	color: #8a2be2;
+    font-family: sans-serif;
+}
+
+h3 {
+    font-family: cursive;
 }
