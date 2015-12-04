@@ -1,30 +1,3 @@
-/*Add your CSS below!*/
-
-div {
-	display: inline-block;
-	margin-left: 5px;
-}
-
-.friend {
-    border: 2px dashed #008000;
-}
-
-.friend {
-    border: 2px dashed #008000;
-}
-
-.family {
-    border: 2px dashed #0000FF;
-}
-
-.enemy {
-    border: 2px dashed #FF0000;
-}
-
-#best_friend {
-    border: 4px solid #00C957;
-}
-
-#archnemesis {
-    border: 4px solid #CC0000;
+* {
+    border: 1px dashed #0000FF
 }
