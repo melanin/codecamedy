@@ -1,3 +1,13 @@
+/*Add your CSS below!*/
+
+p {
+    color: #00E5EE;
+}
+
+div p {
+    color: #CC0000;
+}
+
 * {
-    border: 1px dashed #3A5FCD
+    border: 2px dotted #3A5FCD
 }
