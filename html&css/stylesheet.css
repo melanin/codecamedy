@@ -18,4 +18,5 @@ div {
     width: 120px;
     border: 2px dashed #6495ED;
     background-color: #BCD2EE;
+    border-radius: 5px;
 }
