@@ -10,7 +10,8 @@ div {
 	/*Add your CSS here!*/
 	/*display: block;*/
 	/*display: inline-block;*/
-	display: inline;
+	/*display: inline;*/
+	display: none;
 }
 
 #one {
