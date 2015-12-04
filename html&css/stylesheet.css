@@ -1,12 +1,5 @@
-a:link {
-    text-decoration: none;
-    color: #008B45;
-}
+/*Add your CSS below!*/
 
-a:hover {
-    color: #00FF00;
-}
-
-a:visited {
-    color: #EE9A00;
+p:first-child {
+    font-family: cursive;
 }
