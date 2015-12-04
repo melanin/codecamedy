@@ -1,15 +1,8 @@
-p {
-	font-family:Garamond;
-	font-size:16px;
+img {
+	width:100px;
+	height:100px;
 }
 
-h3 {
-	font-family:cursive;
-	color:#36648b;
-	text-align:center;
-}
-
-span {
-	color:#cc0000;
-	font-size:24px;
+table, td {
+	border: 1px #70b8ff dashed;
 }
