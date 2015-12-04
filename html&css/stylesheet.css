@@ -22,3 +22,9 @@ div {
     margin: auto;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color: #ffff00;
+    font-family: Garamond, serif;
+}
