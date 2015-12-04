@@ -1,6 +1,6 @@
-/*Define your CSS class .fancy below!*/
+/*Define your CSS id #serious below!*/
 
-.fancy {
-    font-family: cursive;
-    color: #0000CD;
+#serious {
+    font-family: Courier;
+    color: #CC0000;
 }
