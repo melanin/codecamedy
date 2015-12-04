@@ -1,5 +1,6 @@
 /*Add your CSS below!*/
 
-div ul li {
-    font-size: 30px;
+.fancy {
+    font-family: cursive;
+    color: #EE82EE;
 }
