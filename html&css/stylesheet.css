@@ -3,3 +3,8 @@ div {
     height: 100px;
     background-color: #ff0000;
 }
+
+#header {
+    position: fixed;
+    z-index: 1;
+}
