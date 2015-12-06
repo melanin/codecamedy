@@ -8,5 +8,6 @@ div {
 	border: 2px solid black;
 	border-radius: 5px;
 	background-color: #308014;
-	margin: auto;
+	/*margin: auto;*/
+	margin: 20px 50px 10px 5px
 }
