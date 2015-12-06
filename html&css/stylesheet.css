@@ -42,7 +42,8 @@ ul{
 
 li {
 	/*Add your CSS here!*/
-	
+	display: inline;
+	padding: 5px;
 	border: 2px solid #000000;
 	font-family: Futura, Tahoma, sans-serif;
 	color: #ffffff;
@@ -52,7 +53,8 @@ li {
 
 #left{
 	/*Add your CSS here!*/
-	
+	float: left;
+	width: 45%;
 }
 
 p {
@@ -62,7 +64,8 @@ p {
 
 #right{
 	/*Add your CSS here!*/
-	
+	float: right;
+	width: 45%;
 }
 
 table {
@@ -102,7 +105,7 @@ th {
 
 #footer{
 	/*Add your CSS here!*/
-	
+	clear: both;
 	position: relative;
 	bottom: -20px;
 	border-bottom-left-radius: 15px;
