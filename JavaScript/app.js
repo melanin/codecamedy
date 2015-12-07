@@ -1,12 +1,12 @@
-// Remember, the order and punctuation matter.
-// If you get an error, check carefully, line by line.
-// If you're really stuck, click "Stuck? Get a hint!"
+// The computer doesn't worry about extra spaces between words or brackets
+// It just cares about the order of where things are placed
+// and that you have used the right characters (){}[]"";
 
-if("JavaScript".length === 9)
-{
-    console.log("The condition is true");
-}
-else
-{
-    console.log("The condition is false");
+// For extra help, a program called a 'linter' is checking your code
+// and will put a red 'x' next to the first line that contains errors
+
+if (10 === 10) {
+    console.log("You got a true!");
+} else {
+    console.log("You got a false!");
 }
