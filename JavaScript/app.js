@@ -1,9 +1,12 @@
-if ("test".length !== 4 ) 
+// Remember, the order and punctuation matter.
+// If you get an error, check carefully, line by line.
+// If you're really stuck, click "Stuck? Get a hint!"
+
+if("JavaScript".length === 9)
 {
-    console.log("Let's go down the first road!");
+    console.log("The condition is true");
 }
-else 
+else
 {
-    // What should we do if the condition is false? Fill in here:
-    console.log("test");
+    console.log("The condition is false");
 }
