@@ -1,1 +1,1 @@
-"문자열을 3단어 이상으로 하라는군.".length;
+"I'm coding like a champ".length > 10;
