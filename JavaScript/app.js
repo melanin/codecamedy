@@ -1,6 +1,9 @@
-// Below is an example of printing the remainder of 18/4 using modulo:
-// console.log(18 % 4); 
+//An example of an if/else statement with modulo in the condition
 
-console.log(14 % 3);
-console.log(99 % 8);
-console.log(11 % 3);
+
+
+if(2 === 20 % 3 ) {
+    console.log("The first number is even");
+} else {
+    console.log("The first number is odd");
+}
