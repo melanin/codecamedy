@@ -1,1 +1,2 @@
-"I'm coding like a champ".length > 10;
+console.log(2 * 5);
+console.log("Hello");
