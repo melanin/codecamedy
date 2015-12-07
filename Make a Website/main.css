@@ -7,12 +7,19 @@
 }
 
 .nav li {
-    display: inline;
+  display: inline;
 }
 
 .jumbotron {
   background-image:url('http://goo.gl/04j7Nn');
   height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
 }
 
 .jumbotron h1 {
@@ -25,11 +32,6 @@
 .jumbotron p {
   font-size: 20px;
   color: #fff;
-}
-
-.jumbotron .container {
-    position: relative;
-    top: 100px;
 }
 
 .learn-more {
