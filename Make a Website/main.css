@@ -27,6 +27,11 @@
   color: #fff;
 }
 
+.jumbotron .container {
+    position: relative;
+    top: 100px;
+}
+
 .learn-more {
   background-color: #f7f7f7;
 }
