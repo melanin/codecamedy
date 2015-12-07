@@ -9,3 +9,8 @@
     padding: 14px 10px 14px 10;
     text-transform: uppercase;
 }
+
+.jumbotron {
+    height: 500px;
+    background-image: url('https://goo.gl/04j7Nn')
+}
