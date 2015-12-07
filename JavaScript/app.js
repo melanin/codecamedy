@@ -1,8 +1,6 @@
-if("Jon".length * 2 / (2+1) === 2)
-{
-    console.log("The answer makes sense!");
-} 
-else 
-{
-    console.log("No no no no no!");
-}
+// Below is an example of printing the remainder of 18/4 using modulo:
+// console.log(18 % 4); 
+
+console.log(14 % 3);
+console.log(99 % 8);
+console.log(11 % 3);
