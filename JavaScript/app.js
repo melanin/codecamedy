@@ -1,7 +1,8 @@
-// This is an example of an if / else statement.
-
-if (12 / 4 === "Ari".length) {
-    confirm("Will this run the first block?");
-} else {
-    confirm("Or the second block?");
+if("Jon".length * 2 / (2+1) === 2)
+{
+    console.log("The answer makes sense!");
+} 
+else 
+{
+    console.log("No no no no no!");
 }
