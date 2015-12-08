@@ -1,11 +1,10 @@
-// Below is the greeting function!
-// See line 7
-// We can join strings together using the plus sign (+)
-// See the hint for more details about how this works.
+// Write your foodDemand function below.
+// Last hint: In your reusable block of code, end each line
+// with a semicolon (;)
 
-var greeting = function (name) {
-    console.log("Great to see you," + " " + name);
-};
+var foodDemand = function(food)
+{
+    console.log("I want to eat" + " " + food);
+}
 
-// On line 11, call the greeting function!
-greeting("MELA");
+foodDemand("pizza");
