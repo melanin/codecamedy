@@ -1,8 +1,13 @@
-// Write your function starting on line 3
+var my_number = 7; //this has global scope
 
-var perimeterBox = function(legth, width)
-{
-    return legth + legth + width + width;
-}
+var timesTwo = function(number) {
+    my_number = number * 2;
+    // var my_number = number * 2;
+    console.log("Inside the function my_number is: ");
+    console.log(my_number);
+}; 
 
-perimeterBox(5, 4);
+timesTwo(7);
+
+console.log("Outside the function my_number is: ")
+console.log(my_number);
