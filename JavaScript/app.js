@@ -1,10 +1,3 @@
-var isFinishCourse = true;
+// Check if the user is ready to play!
 
-if(isFinishCourse)
-{
-	console.log("I finished my first course!");
-}
-else
-{
-	console.log("I don't finished my first course!");
-}
+confirm("I am ready to play!");
