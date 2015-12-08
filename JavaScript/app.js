@@ -1,7 +1,9 @@
-// To create a variable, we use only one equals sign
-// But to check if two values are equal, we use 3 equal signs.
+// Declare a variable on line 3 called
+// myCountry and give it a string value.
+var myCountry = "Korea";
 
-// declare your variable here:
+// Use console.log to print out the length of the variable myCountry.
+console.log(myCountry.length);
 
-var myAge = 32;
-console.log(myAge);
+// Use console.log to print out the first three letters of myCountry.
+console.log(myCountry.substring(0, 3));
