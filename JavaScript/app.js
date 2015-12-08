@@ -1,11 +1,12 @@
-var speed = 65;
+// This is what a function looks like:
 
-// Complete the condition in the ()s on line 4
-if (speed > 80 ) {
-	// Use console.log() to print "Slow down"
-	console.log("Slow down");
-} 
-else {
-	// Use console.log() to print "Drive safe"
-    console.log("Drive safe");
-}
+var divideByThree = function (number) {
+    var val = number / 3;
+    console.log(val);
+};
+
+// On line 12, we call the function by name
+// Here, it is called 'dividebythree'
+// We tell the computer what the number input is (i.e. 6)
+// The computer then runs the code inside the function!
+divideByThree(6);
