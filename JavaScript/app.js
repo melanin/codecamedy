@@ -1,16 +1,10 @@
-var introduction = "You are at a Justin Bieber concert, and you hear this lyric 'Lace my shoes off, start racing.'";
-console.log(introduction);
+var feedback = prompt("INPUT");
 
-console.log("Suddenly, Bieber stops and says, 'Who wants to race me?'");
-
-var userAnswer = prompt("Do you want to race Bieber on stage?");
-console.log(userAnswer);
-
-if("yes" === userAnswer)
+if(8 < feedback)
 {
-    console.log("You and Bieber start racing. It's neck and neck! You win by a shoelace!");
+    console.log("Thank you! We should race at the next concert!");
 }
 else
-{ // Otherwise...
-    console.log("Oh no! Bieber shakes his head and sings 'I set a pace, so I can race without pacing.'");
+{
+    console.log("I'll keep practicing coding and racing.");
 }
