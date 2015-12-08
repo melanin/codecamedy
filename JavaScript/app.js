@@ -1,15 +1,12 @@
-// Nicely written function:
-var calculate = function (number) {
-    var val = number * 10;
-    console.log(val);
-};
-calculate(14);
-
-// Badly written function with syntax errors!
-
-// greeting var func{name}(console.log(name)))} 
-var greeting = function(name)
+var orangeCost = function(__cost)
 {
-    console.log(name);
-};
-greeting("MELA");
+    var BuyCount = 5;
+    
+    var pay = BuyCount * __cost;
+    console.log(pay);
+}
+
+orangeCost(2);
+orangeCost(5);
+orangeCost(8);
+orangeCost(10);
