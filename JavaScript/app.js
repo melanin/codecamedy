@@ -1,10 +1,15 @@
-// Write your foodDemand function below.
-// Last hint: In your reusable block of code, end each line
-// with a semicolon (;)
+// Nicely written function:
+var calculate = function (number) {
+    var val = number * 10;
+    console.log(val);
+};
+calculate(14);
 
-var foodDemand = function(food)
+// Badly written function with syntax errors!
+
+// greeting var func{name}(console.log(name)))} 
+var greeting = function(name)
 {
-    console.log("I want to eat" + " " + food);
-}
-
-foodDemand("pizza");
+    console.log(name);
+};
+greeting("MELA");
