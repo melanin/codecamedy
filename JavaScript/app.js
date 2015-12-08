@@ -1,11 +1,8 @@
-// Define quarter here.
-var quarter = function(number)
+// Write your function starting on line 3
+
+var perimeterBox = function(legth, width)
 {
-    return number / 4;
+    return legth + legth + width + width;
 }
 
-if (quarter(12) % 3 === 0 ) {
-  console.log("The statement is true");
-} else {
-  console.log("The statement is false");
-}
+perimeterBox(5, 4);
