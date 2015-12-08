@@ -1,13 +1,3 @@
-// Check if the user is ready to play!
+var introduction = "You are at a Justin Bieber concert, and you hear this lyric 'Lace my shoes off, start racing.'";
 
-// confirm("I am ready to play!");
-
-var age = prompt("몇살이고?");
-if(13 < age)
-{
-    console.log("마이 무겄네");
-}
-else
-{
-    console.log("엄마 젖먹고 와라");
-}
+console.log(introduction);
