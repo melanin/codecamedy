@@ -1,7 +1,7 @@
-// Use console.log( ) to print out the substrings.
-// Here is an example of the 1st to 4th letter of "JavaScript":
-console.log("JavaScript".substring(0,4));
+// To create a variable, we use only one equals sign
+// But to check if two values are equal, we use 3 equal signs.
 
-console.log("January".substring(0, 3));
-console.log("Melbourne is great".substring(0, 13));
-console.log("Hamburgers".substring(3, 10));
+// declare your variable here:
+
+var myAge = 32;
+console.log(myAge);
