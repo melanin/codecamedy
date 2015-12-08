@@ -1,12 +1,8 @@
-var orangeCost = function(__cost)
-{
-    var BuyCount = 5;
-    
-    var pay = BuyCount * __cost;
-    console.log(pay);
-}
+// Parameter is a number, and we do math with that parameter
+var timesTwo = function(number) {
+    return number * 2;
+};
 
-orangeCost(2);
-orangeCost(5);
-orangeCost(8);
-orangeCost(10);
+// Call timesTwo here!
+var newNumber = timesTwo(10);
+console.log(newNumber);
