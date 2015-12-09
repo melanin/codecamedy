@@ -1,12 +1,14 @@
-//Remember to set your condition outside the loop!
+//Remember to make your condition true outside the loop!
 
-
-var loop = function(__count){
-	while(__count){
-		//Your code goes here!
-		console.log("I'm looping!");
-		__count--;
-	}
+var soloLoop = function(){
+  //Your code goes here!
+  var myCondition = true;
+  
+  while(myCondition)
+  {
+      console.log("Looped once!");
+      myCondition = false;
+  }
 };
 
-loop(10);
+soloLoop();
