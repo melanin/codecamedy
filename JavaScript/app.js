@@ -1,5 +1,7 @@
-// Practice array!
+// Let's print out every element of an array using a for loop
 
-var junkData = ["Eddie Murphy", 49, "peanuts", 31];
+var cities = ["Seoul", "Busan", "Masan", "Incheon", "Gyeonju"];
 
-console.log(junkData[3]);
+for (var i = 0; i < cities.length; i++) {
+    console.log("I would like to visit " + cities[i]);
+}
