@@ -1,6 +1,6 @@
-// Example of infinite loop. THIS WILL CRASH YOUR
-// BROWSER. Don't run the code without changing it!
+// Write your very own for loop!
 
-for (var i = 10; i >= 0; i--) {
-	console.log(i);
+for(var i=100; i>0; i-=5)
+{
+    console.log(i);
 }
