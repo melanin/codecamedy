@@ -1,16 +1,14 @@
-var candy = prompt("What's your favorite candy?","Type your favorite candy here.");
+var answer = prompt("Would you like something to drink?", "Beverage");
 
-switch(candy) {
-  case 'licorice':
-    console.log("Gross!");
-    break;
-  case 'gum':
-    console.log("I like gum!");
-    break;
-  case 'beets':
-    console.log("...is that even a candy?");
+switch(answer) {
+  case 'coffee':
+    console.log("Americano!!");
     break;
   // Add your code here!
-  default:
-    console.log("..............");
+  case "cola":
+      console.log("Coke!!!");
+      break;
+      
+    default:
+        console.log("....." + answer);
 }
