@@ -1,12 +1,11 @@
 // Declare your variables here!
 
-var hungry = true;
-var foodHere = true;
+var tired = false;
+var bored = true;
 
-var eat = function() {
+var nap = function() {
   // Add your if/else statement here!
-  
-  if(hungry && foodHere)
+  if(tired || bored)
   {
       return true;
   }
@@ -16,4 +15,4 @@ var eat = function() {
   }
 };
 
-console.log(eat());
+console.log(nap());
