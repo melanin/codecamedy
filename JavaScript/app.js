@@ -1,17 +1,16 @@
-var color = prompt("What's your favorite primary color?","Type your favorite color here");
+var candy = prompt("What's your favorite candy?","Type your favorite candy here.");
 
-switch(color) {
-  case 'red':
-    console.log("Red's a good color!");
+switch(candy) {
+  case 'licorice':
+    console.log("Gross!");
     break;
-  case 'blue':
-    console.log("That's my favorite color, too!");
+  case 'gum':
+    console.log("I like gum!");
     break;
-  //Add your case here!
-  case "yellow":
-      console.log("Yellow's a great color!");
-      break;
-  
+  case 'beets':
+    console.log("...is that even a candy?");
+    break;
+  // Add your code here!
   default:
-    console.log("I don't think that's a primary color!");
+    console.log("..............");
 }
