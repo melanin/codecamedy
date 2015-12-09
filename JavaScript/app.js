@@ -1,9 +1,8 @@
-var phonebookEntry = {};
-
-phonebookEntry.name = 'Oxnard Montalvo';
-phonebookEntry.number = '(555) 555-5555';
-phonebookEntry.phone = function() {
-  console.log('Calling ' + this.name + ' at ' + this.number + '...');
+var me =
+{
+    name: "MELA"
+    , age: 32
 };
 
-phonebookEntry.phone();
+console.log(me.name);
+console.log(me.age);
