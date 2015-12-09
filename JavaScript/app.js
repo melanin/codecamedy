@@ -1,3 +1,6 @@
 var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
 
-console.log(languages.length);
+for(var i=0; i<languages.length; i++)
+{
+    console.log(languages[i]);
+}
