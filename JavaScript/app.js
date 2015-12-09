@@ -1,14 +1,21 @@
-var answer = prompt("Would you like something to drink?", "Beverage");
+// Write your code below!
 
-switch(answer) {
-  case 'coffee':
-    console.log("Americano!!");
-    break;
-  // Add your code here!
-  case "cola":
-      console.log("Coke!!!");
-      break;
-      
+var favorite = prompt("I like...", "Favorite");
+
+switch(favorite)
+{
+    case "game":
+        console.log("game is exciting!!");
+        break;
+        
+    case "tennis":
+        console.log("T! E! N! N! I! S!");
+        break;
+        
+    case "movie":
+        console.log("I'm your father.");
+        break;
+        
     default:
-        console.log("....." + answer);
+        console.log("I like ... ... ... ... ... ... " + favorite);
 }
