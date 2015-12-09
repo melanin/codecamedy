@@ -1,1 +1,3 @@
-var list = [ "game", "coding", "sleep" ];
+var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
+
+console.log(languages[2]);
