@@ -1,14 +1,13 @@
-//Remember to make your condition true outside the loop!
+for(var i=0; i<10; i++)
+{
+    console.log(i);
+}
 
-var soloLoop = function(){
-  //Your code goes here!
-  var myCondition = true;
-  
-  while(myCondition)
-  {
-      console.log("Looped once!");
-      myCondition = false;
-  }
-};
+console.log("===============");
 
-soloLoop();
+var count = 10;
+while(count)
+{
+    console.log(count);
+    count--;
+}
