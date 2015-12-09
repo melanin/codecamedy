@@ -1,5 +1,5 @@
-// You are now declaring an array.
-// Arrays are an awesome data structure!
+// Practice array!
 
-var junk = [ "java", "script", 13, 21 ];
-console.log(junk);
+var junkData = ["Eddie Murphy", 49, "peanuts", 31];
+
+console.log(junkData[3]);
