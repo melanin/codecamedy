@@ -1,19 +1,19 @@
-// Complete lines 3 and 4!
+// Declare your variables here!
 
-var iLoveJavaScript = false;
-var iLoveLearning = false;
+var hungry = true;
+var foodHere = true;
 
-if(iLoveJavaScript && iLoveLearning)
-{
-    // if iLoveJavaScript AND iLoveLearning:
-    console.log("Awesome! Let's keep learning!");
-}
-else if(!(iLoveJavaScript || iLoveLearning))
-{
-    // if NOT iLoveJavaScript OR iLoveLearning:
-    console.log("Let's see if we can change your mind.");
-}
-else
-{
-    console.log("You only like one but not the other? We'll work on it.");
-}
+var eat = function() {
+  // Add your if/else statement here!
+  
+  if(hungry && foodHere)
+  {
+      return true;
+  }
+  else
+  {
+      return false;
+  }
+};
+
+console.log(eat());
