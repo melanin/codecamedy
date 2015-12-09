@@ -1,6 +1,5 @@
-// Write your very own for loop!
+// You are now declaring an array.
+// Arrays are an awesome data structure!
 
-for(var i=100; i>0; i-=5)
-{
-    console.log(i);
-}
+var junk = [ "java", "script", 13, 21 ];
+console.log(junk);
