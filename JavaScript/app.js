@@ -1,8 +1,8 @@
 /*jshint multistr:true */
 
 var text = "MELA blah blah blah blah MELA blah \
-blah MELA blah blah blah MELA blah blah blah MELA \
-blah blah MELA blah blah blah MELA blah";
+blah MELA blah blah Medi MELA blah blah blah MELA \
+Medi blah MELA blah blah Medi MELA blah";
 var myName = "MELA";
 var hits = [];
 
