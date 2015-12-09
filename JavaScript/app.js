@@ -8,4 +8,7 @@ var hits = [];
 
 for(var i=0; i<text.length; i++)
 {
+    if(myName[0] === text[i])
+    {
+    }
 }
