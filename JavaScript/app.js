@@ -12,7 +12,16 @@ for(var i=0; i<text.length; i++)
     {
         for(var j=i; j<myName.length + i; j++)
         {
-            hits.push(text[i]);
+            hits.push(text[j]);
         }
     }
+}
+
+if(0 === hits.length)
+{
+    console.log("Your name wasn't found!");
+}
+else
+{
+    console.log(hits);
 }
