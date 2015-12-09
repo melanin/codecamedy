@@ -1,21 +1,19 @@
-// Write your code below!
+// Complete lines 3 and 4!
 
-var favorite = prompt("I like...", "Favorite");
+var iLoveJavaScript = false;
+var iLoveLearning = false;
 
-switch(favorite)
+if(iLoveJavaScript && iLoveLearning)
 {
-    case "game":
-        console.log("game is exciting!!");
-        break;
-        
-    case "tennis":
-        console.log("T! E! N! N! I! S!");
-        break;
-        
-    case "movie":
-        console.log("I'm your father.");
-        break;
-        
-    default:
-        console.log("I like ... ... ... ... ... ... " + favorite);
+    // if iLoveJavaScript AND iLoveLearning:
+    console.log("Awesome! Let's keep learning!");
+}
+else if(!(iLoveJavaScript || iLoveLearning))
+{
+    // if NOT iLoveJavaScript OR iLoveLearning:
+    console.log("Let's see if we can change your mind.");
+}
+else
+{
+    console.log("You only like one but not the other? We'll work on it.");
 }
