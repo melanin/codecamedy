@@ -1,17 +1,9 @@
-var newArray =
+var jagged =
 [
-    [ 3, false, "abc" ],
-    [ "def", 12, true ],
-    [ false, [ 11, "gh" ], 27 ]
+    [ 2, "abc" ],
+    [ false, 31, "def" ],
+    [ "ghi", [ 15, true ], 25, 30.2 ],
+    [ 10 ]
 ];
 
-//console.log(typeof(newArray));
-
-for(var i=0; i<newArray.length; i++)
-{
-    // console.log(newArray[i]);
-    for(var k=0; k<newArray[i].length; k++)
-    {
-        console.log(newArray[i][k]);
-    }
-}
+console.log(jagged);
