@@ -1,13 +1,5 @@
-for(var i=0; i<10; i++)
-{
-    console.log(i);
-}
+var loopCondition = false;
 
-console.log("===============");
-
-var count = 10;
-while(count)
-{
-    console.log(count);
-    count--;
-}
+do {
+	console.log("I'm gonna stop looping 'cause my condition is " + loopCondition + "!");	
+} while (loopCondition);
