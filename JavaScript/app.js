@@ -1,20 +1,6 @@
-var isEven = function(number) {
-// Your code goes here!
+// Write your loop below!
 
-    if(0 == number % 2)
-    {
-        return true;
-    }
-    else if(isNaN(number))
-    {
-        return "please input number";
-    }
-    else
-    {
-        return false;
-    }
-};
-
-console.log(isEven(100));
-console.log(isEven("test"));
-console.log(isEven(21));
+for(var i=0; i<5; i++)
+{
+    console.log("test");
+}
