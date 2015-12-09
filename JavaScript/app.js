@@ -1,9 +1,9 @@
-var jagged =
-[
-    [ 2, "abc" ],
-    [ false, 31, "def" ],
-    [ "ghi", [ 15, true ], 25, 30.2 ],
-    [ 10 ]
-];
+var phonebookEntry = {};
 
-console.log(jagged);
+phonebookEntry.name = 'Oxnard Montalvo';
+phonebookEntry.number = '(555) 555-5555';
+phonebookEntry.phone = function() {
+  console.log('Calling ' + this.name + ' at ' + this.number + '...');
+};
+
+phonebookEntry.phone();
