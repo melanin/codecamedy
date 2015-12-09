@@ -5,11 +5,31 @@ console.log(user);
 switch(user)
 {
     case "BANANA":
-        console.log("반하나");
+        //console.log("반하나");
+        var target = prompt("누규").toLowerCase();
+        var really = prompt("진짜(Y / N)?").toLowerCase();
+        if("you" == target && "y" == really)
+        {
+            console.log("나한테 반하나");
+        }
+        else
+        {
+            console.log("어쩌라고");
+        }
         break;
         
     case "APPLE":
-        console.log("사과하나");
+        //console.log("사과하나");
+        var target = prompt("누규").toLowerCase();
+        var really = prompt("진짜(Y / N)?").toLowerCase();
+        if("you" == target || "y" == really)
+        {
+            console.log("받아주마");
+        }
+        else
+        {
+            console.log("어쩔");
+        }
         break;
         
     case "ORANGE":
