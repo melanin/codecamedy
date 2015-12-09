@@ -1,8 +1,25 @@
-// Click on "Stuck? Get a hint!" if you get stuck!
+/*jshint multistr:true */
 
-var names = [ "john", "steph", "bob", "steve", "mike" ];
+text = "Blah blah blah blah blah blah Eric \
+blah blah blah Eric blah blah Eric blah blah \
+blah blah blah blah blah Eric";
 
-for(var i=0; i<names.length; i++)
-{
-    console.log("I know someone called " + names[i]);
+var myName = "MYNAM";
+var hits = [];
+
+// Look for "E" in the text
+for(var i = 0; i < text.length; i++) {
+	if (text[i] === myName[0]) {
+		// If we find it, add characters up to
+		// the length of my name to the array
+		for(var j = i; j < (myName.length + i); j++) {
+			hits.push(text[j]);
+		}
+	}
+}
+
+if (hits.length === 0) {
+	console.log("Your name wasn't found!");
+} else {
+	console.log(hits);
 }
