@@ -5,5 +5,15 @@ var totalDamage = 0;
 
 while(slaying)
 {
+    if(youHit)
+    {
+        console.log("Your Attack");
+    }
+    else
+    {
+        console.log("Dragon Attack. You Died!!");
+        slaying = false;
+    }
+    
     slaying = false;
 }
