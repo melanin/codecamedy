@@ -1,8 +1,16 @@
-var me = new Object();
+var object1 = new Object();
+var object2 = new Object();
+var object3 = new Object();
 
-me.name = "MELA";
-me.age = 32;
+object1.name = "abc";
+object1.age = 12;
 
-console.log(me);
-console.log(me.name);
-console.log(me.age);
+object2.strValue = "sss";
+object2.numValue = 22;
+
+object3.boolean = false;
+object3.count = 12;
+
+console.log(object1);
+console.log(object2);
+console.log(object3);
