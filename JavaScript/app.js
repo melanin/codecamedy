@@ -1,18 +1,10 @@
 // Declare your variables here!
 
-var tired = false;
-var bored = true;
+var programming = false;
 
-var nap = function() {
+var happy = function() {
   // Add your if/else statement here!
-  if(tired || bored)
-  {
-      return true;
-  }
-  else
-  {
-      return false;
-  }
+  return !programming;
 };
 
-console.log(nap());
+console.log(happy());
