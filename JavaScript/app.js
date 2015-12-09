@@ -1,29 +1,12 @@
-var slaying = true;
-var youHit = Math.floor(Math.random() * 2);
-var damageThisRound = Math.floor(Math.random() * 5 + 1);
-var totalDamage = 0;
-var DragonHP = 4;
-
-while(slaying)
-{
-    if(youHit)
-    {
-        console.log("You hit the dragon and did " + damageThisRound + " damage!");
-        totalDamage += damageThisRound;
-        
-        if (totalDamage >= DragonHP)
-        {
-            console.log("You did it! You slew the dragon!");
-            slaying = false;
-        }
-        else
-        {
-            youHit = Math.floor(Math.random() * 2);
-        }
-    }
-    else
-    {
-        console.log("The dragon burninates you! You're toast.");
-        slaying = false;
-    }
-}
+var isEven = function(number) {
+  // Your code goes here!
+  
+  if(0 == number % 2)
+  {
+      return true;
+  }
+  else
+  {
+      return false;
+  }
+};
