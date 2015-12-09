@@ -1,7 +1,17 @@
-var myArray = [ 12, false, "arr" ];
-console.log(myArray);
+var newArray =
+[
+    [ 3, false, "abc" ],
+    [ "def", 12, true ],
+    [ false, [ 11, "gh" ], 27 ]
+];
 
-for(var i=0; i<myArray.length; i++)
+//console.log(typeof(newArray));
+
+for(var i=0; i<newArray.length; i++)
 {
-    console.log(typeof(myArray[i]));
+    // console.log(newArray[i]);
+    for(var k=0; k<newArray[i].length; k++)
+    {
+        console.log(newArray[i][k]);
+    }
 }
