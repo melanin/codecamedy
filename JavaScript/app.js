@@ -1,6 +1,7 @@
-var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
+var myArray = [ 12, false, "arr" ];
+console.log(myArray);
 
-for(var i=0; i<languages.length; i++)
+for(var i=0; i<myArray.length; i++)
 {
-    console.log(languages[i]);
+    console.log(typeof(myArray[i]));
 }
