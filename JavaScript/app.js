@@ -1,7 +1,8 @@
-// Let's print out every element of an array using a for loop
+// Click on "Stuck? Get a hint!" if you get stuck!
 
-var cities = ["Seoul", "Busan", "Masan", "Incheon", "Gyeonju"];
+var names = [ "john", "steph", "bob", "steve", "mike" ];
 
-for (var i = 0; i < cities.length; i++) {
-    console.log("I would like to visit " + cities[i]);
+for(var i=0; i<names.length; i++)
+{
+    console.log("I know someone called " + names[i]);
 }
