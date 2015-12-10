@@ -16,4 +16,8 @@ friends.steve =
     , address: ["jklmn", "opq"]
 };
 
-console.log(friends);
+//console.log(friends);
+for(var key in friends)
+{
+    console.log(friends[key]);
+}
