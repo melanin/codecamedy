@@ -17,9 +17,22 @@ friends.steve =
 
 var list = function(__list)
 {
-    for(var key in __list)
+    for(var prop in __list)
     {
-        console.log(__list[key]);
+        console.log(prop);
     }
-}
+};
+var search = function(__name)
+{
+    for(var prop in friends)
+    {
+        if(__name === friends[prop].firstName)
+        {
+            console.log(friends[prop]);
+            return friends[prop];
+        }
+    }
+};
+
 list(friends);
+search("Steve");
