@@ -7,7 +7,6 @@ friends.bill =
     , number: 12
     , address: ["abcdef", "ghi"]
 };
-
 friends.steve =
 {
     firstName: "Steve"
@@ -16,8 +15,11 @@ friends.steve =
     , address: ["jklmn", "opq"]
 };
 
-//console.log(friends);
-for(var key in friends)
+var list = function(__list)
 {
-    console.log(friends[key]);
+    for(var key in __list)
+    {
+        console.log(__list[key]);
+    }
 }
+list(friends);
