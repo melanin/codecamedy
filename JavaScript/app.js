@@ -1,14 +1,11 @@
-// here is bob again, with his usual properties
 var bob = new Object();
-bob.name = "Bob Smith";
-bob.age = 30;
+bob.age = 17;
 // this time we have added a method, setAge
 bob.setAge = function (newAge){
   bob.age = newAge;
 };
-// here we set bob's age to 40
-bob.setAge(40);
-// bob's feeling old.  Use our method to set bob's age to 20
-console.log(bob);
-bob.setAge(20);
-console.log(bob);
+bob.setAge(32);
+bob.getYearOfBirth = function () {
+  return 2015 - bob.age;
+};
+console.log(bob.getYearOfBirth());
