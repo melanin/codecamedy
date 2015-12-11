@@ -1,18 +1,16 @@
-var rectangle = new Object();
-rectangle.height = 3;
-rectangle.width = 4;
-// here is our method to set the height
-rectangle.setHeight = function (newHeight) {
-  this.height = newHeight;
+var square = new Object();
+square.sideLength = 6;
+square.calcPerimeter = function() {
+  return this.sideLength * 4;
 };
-// help by finishing this method
-rectangle.setWidth = function(newWidth)
+// help us define an area method here
+square.calcArea = function()
 {
-    this.width = newWidth;
-}  
-console.log(rectangle);
-// here change the width to 8 and height to 6 using our new methods
-rectangle.setWidth(8);
-rectangle.setHeight(6);
+    return this.sideLength * this.sideLength;
+}
 
-console.log(rectangle);
+var p = square.calcPerimeter();
+var a = square.calcArea();
+
+console.log(p);
+console.log(a);
