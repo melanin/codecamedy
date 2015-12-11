@@ -1,8 +1,14 @@
-var bicycle =
-{
-    speed: 0
-    , gear: 1
-    , frame_material: "carbon fiber"
+// Accepts a number x as input and returns its square
+var square = function (x) {
+  return x * x;
 };
 
-console.log(bicycle);
+// Write the function multiply below
+// It should take two parameters and return the product
+
+
+var multiply = function(x, y)
+{
+    return x * y;
+}
+console.log(multiply(7, 8));
