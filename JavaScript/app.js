@@ -1,18 +1,10 @@
-function Cat(age, color) {
+function Person(name,age) {
+  this.name = name;
   this.age = age;
-  this.color = color;
+  this.species = "Homo Sapiens";
 }
 
-// make a Dog constructor here
-function Dog(age, name, breed)
-{
-    this.age = age;
-    this.name = name;
-    this.breed = breed;
-}
-
-var navi = new Cat(12, "white");
-console.log(navi);
-
-var snoopy = new Dog(30, "snoopy", "what");
-console.log(snoopy);
+var sally = new Person("Sally Bowles", 39);
+var holden = new Person("Holden Caulfield", 16);
+console.log("sally's species is " + sally.species + " and she is " + sally.name + ", " + sally.age);
+console.log("holden's species is " + holden.species + " and he is " + holden.name + ", " + holden.age);
