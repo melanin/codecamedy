@@ -1,14 +1,16 @@
-// 3 lines required to make harry_potter
-var harry_potter = new Object();
-harry_potter.pages = 350;
-harry_potter.author = "J.K. Rowling";
+function Circle (radius) {
+    this.radius = radius;
+    this.area = function () {
+        return Math.PI * this.radius * this.radius;
+        
+    };
+    // define a perimeter method here
+    this.perimeter = function()
+    {
+        return Math.PI * (this.radius * 2);
+    };
+};
 
-// A custom constructor for book
-function Book (pages, author) {
-    this.pages = pages;
-    this.author = author;
-}
-
-// Use our new constructor to make the_hobbit in one line
-var the_hobbit = new Book(320, "J.R.R. Tolkien");
-console.log(the_hobbit);
+var circle = new Circle(3);
+console.log(circle.area());
+console.log(circle.perimeter());
