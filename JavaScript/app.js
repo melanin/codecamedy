@@ -1,14 +1,18 @@
-function Person(name,age) {
-  this.name = name;
+function Cat(age, color) {
   this.age = age;
+  this.color = color;
 }
 
-// Let's make bob and susan again, using our constructor
-var bob = new Person("Bob Smith", 30);
-var susan = new Person("Susan Jordan", 25);
-// help us make george, whose name is "George Washington" and age is 275
-console.log(bob);
-console.log(susan);
+// make a Dog constructor here
+function Dog(age, name, breed)
+{
+    this.age = age;
+    this.name = name;
+    this.breed = breed;
+}
 
-var george = new Person("George Washington", 275);
-console.log(george);
+var navi = new Cat(12, "white");
+console.log(navi);
+
+var snoopy = new Dog(30, "snoopy", "what");
+console.log(snoopy);
