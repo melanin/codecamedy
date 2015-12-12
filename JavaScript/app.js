@@ -1,16 +1,7 @@
-var square = new Object();
-square.sideLength = 6;
-square.calcPerimeter = function() {
-  return this.sideLength * 4;
-};
-// help us define an area method here
-square.calcArea = function()
-{
-    return this.sideLength * this.sideLength;
-}
+// here we make bob using the Object constructor
+var bob = new Object();
+bob.name = "Bob Smith";
+// add bob's age here and set it equal to 20
+bob.age = 20;
 
-var p = square.calcPerimeter();
-var a = square.calcArea();
-
-console.log(p);
-console.log(a);
+console.log(bob);
