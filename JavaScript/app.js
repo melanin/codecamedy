@@ -1,12 +1,14 @@
-var snoopy = new Object();
-snoopy.species = "beagle";
-snoopy.age = 10;
+// 3 lines required to make harry_potter
+var harry_potter = new Object();
+harry_potter.pages = 350;
+harry_potter.author = "J.K. Rowling";
 
-// save Snoopy's age and species into variables
-// use dot notation for snoopy's species
-var species = snoopy.species;
-    
-// use bracket notation for snoopy's age
-var age = snoopy["age"];
+// A custom constructor for book
+function Book (pages, author) {
+    this.pages = pages;
+    this.author = author;
+}
 
-console.log("species : " + species + ", age : " + age);
+// Use our new constructor to make the_hobbit in one line
+var the_hobbit = new Book(320, "J.R.R. Tolkien");
+console.log(the_hobbit);
