@@ -8,11 +8,17 @@ function Person (name, age) {
 // This one computes the difference in ages between two people
 var ageDifference = function(person1, person2) {
     return person1.age - person2.age;
+};
+
+// Make a new function, olderAge, to return the age of
+// the older of two people
+var olderAge = function(person1, person2)
+{
+    return (person1.age > person2.age) ? person1.age : person2.age;
 }
 
+// Let's bring back alice and billy to test our new function
 var alice = new Person("Alice", 30);
 var billy = new Person("Billy", 25);
 
-// get the difference in age between alice and billy using our function
-var diff = ageDifference(alice, billy);
-console.log(diff);
+console.log("The older person is " + olderAge(alice, billy));
