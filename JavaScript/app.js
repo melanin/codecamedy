@@ -18,12 +18,26 @@ function printPerson(person) {
     console.log(person.firstName + " " + person.lastName);
 }
 
-function list()
+function list() {
+	var contactsLength = contacts.length;
+	for (var i = 0; i < contactsLength; i++) {
+		printPerson(contacts[i]);
+	}
+}
+
+/*Create a search function
+then call it passing "Jones"*/
+function search(lastName)
 {
-    var count = contacts.length;
-    for(var i=0; i<count; i++)
+    var contactsLength = contacts.length;
+    for(var i=0; i<contactsLength; i++)
     {
-        printPerson(contacts[i]);
+        if(lastName === contacts[i].lastName)
+        {
+            printPerson(contacts[i]);
+            break;
+        }
     }
 }
-list();
+
+search("Jones");
