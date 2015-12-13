@@ -14,10 +14,16 @@ var mary = {
 
 var contacts = [bob, mary];
 
-// printPerson added here
-var printPerson = function(person)
-{
+function printPerson(person) {
     console.log(person.firstName + " " + person.lastName);
 }
-printPerson(contacts[0]);
-printPerson(contacts[1]);
+
+function list()
+{
+    var count = contacts.length;
+    for(var i=0; i<count; i++)
+    {
+        printPerson(contacts[i]);
+    }
+}
+list();
