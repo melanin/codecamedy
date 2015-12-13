@@ -39,5 +39,18 @@ function search(lastName)
         }
     }
 }
+//search("Jones");
 
-search("Jones");
+function add(firstName, lastName, email, phoneNumber)
+{
+    contacts[contacts.length] =
+    {
+        firstName: firstName,
+        lastName: lastName,
+        phoneNumber: email,
+        email: phoneNumber
+    };
+}
+add("MELA", "coder", "melanin951@gmail.com", "010-3291-xxxx");
+
+list();
