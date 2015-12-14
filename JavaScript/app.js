@@ -1,3 +1,4 @@
+// the original Animal class and sayName method
 function Animal(name, numLegs) {
     this.name = name;
     this.numLegs = numLegs;
@@ -6,19 +7,19 @@ Animal.prototype.sayName = function() {
     console.log("Hi my name is " + this.name);
 };
 
-
-// create a Penguin constructor here
-function Penguin(name, numLegs)
+// define a Penguin class
+function Penguin(name)
 {
     this.name = name;
-    this.numLegs = numLegs;
+    this.numLegs = 2;
 }
 
-// create a sayName method for Penguins here
-Penguin.prototype.sayName = function() {
-    console.log("Hi my name is " + this.name);
-};
+// set its prototype to be a new instance of Animal
+Penguin.prototype = new Animal();
 
-// our test code
-var theCaptain = new Penguin("Captain Cook", 2);
-theCaptain.sayName();
+var kingpin = new Penguin("kingpin");
+for(var property in kingpin)
+{
+    console.log(property + ": " + kingpin[property]);
+}
+kingpin.sayName();
