@@ -5,7 +5,8 @@ var nyc = {
     boroughs: 5
 };
 
+// write a for-in loop to print the value of nyc's properties
 for(var property in nyc)
 {
-    console.log(property);
+    console.log(nyc[property]);
 }
