@@ -1,24 +1,16 @@
-// original classes
-function Animal(name, numLegs) {
-    this.name = name;
-    this.numLegs = numLegs;
-    this.isAlive = true;
-}
-function Penguin(name) {
-    this.name = name;
-    this.numLegs = 2;
-}
-function Emperor(name) {
-    this.name = name;
-    this.saying = "Waddle waddle";
+function Person(first,last,age) {
+   this.firstName = first;
+   this.lastName = last;
+   this.age = age;
 }
 
-// set up the prototype chain
-Penguin.prototype = new Animal();
-Emperor.prototype = new Penguin();
+var john = new Person('John','Smith',30);
+var myFirst = john.firstName;
+var myLast = john.lastName;
 
-var myEmperor = new Emperor("Jules");
+//declare variable myAge set to the age of the john object.
+var myAge = john.age;
 
-console.log(myEmperor.saying); // should print "Waddle waddle"
-console.log(myEmperor.numLegs); // should print 2
-console.log(myEmperor.isAlive); // should print true
+console.log(myFirst);
+console.log(myLast);
+console.log(myAge);
