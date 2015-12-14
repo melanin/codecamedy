@@ -1,12 +1,14 @@
-var nyc = {
-    fullName: "New York City",
-    mayor: "Bill de Blasio",
-    population: 8000000,
-    boroughs: 5
-};
+function Person(name,age) {
+  this.name = name;
+  this.age = age;
+}
 
-// write a for-in loop to print the value of nyc's properties
-for(var property in nyc)
+// Let's make bob again, using our constructor
+var bob = new Person("Bob Smith", 30);
+var susan = new Person("Susan Jordan", 35);
+
+// make your own class here
+function Circle(__radius)
 {
-    console.log(nyc[property]);
+    this.radius = __radius;
 }
