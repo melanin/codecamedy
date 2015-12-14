@@ -1,14 +1,11 @@
-var suitcase = {
-    shirt: "Hawaiian"
+var nyc = {
+    fullName: "New York City",
+    mayor: "Bill de Blasio",
+    population: 8000000,
+    boroughs: 5
 };
 
-//console.log(suitcase.shorts);
-if(suitcase.hasOwnProperty("shorts"))
+for(var property in nyc)
 {
-    console.log(suitcase.shorts);
-}
-else
-{
-    suitcase.shorts = "short short";
-    console.log(suitcase.shorts);
+    console.log(property);
 }
