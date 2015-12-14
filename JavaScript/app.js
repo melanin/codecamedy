@@ -1,17 +1,12 @@
-var james = {
-    // add properties to this object!
-    job: "programmer"
-    , married: false
-    
-};
-
 function Person(job, married) {
     this.job = job;
     this.married = married;
+    // add a "speak" method to Person!
+    this.speak = function()
+    {
+        console.log("Hello!");
+    };
 }
 
-// create a "gabby" object using the Person constructor!
-var gabby = new Person("student", true);
-
-console.log(james);
-console.log(gabby);
+var user = new Person("Codecademy Student",false);
+user.speak();
