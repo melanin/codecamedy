@@ -1,17 +1,11 @@
 var james = {
     job: "programmer",
-    married: false,
-    sayJob: function() {
-        // complete this method
-        console.log("Hi, I work as a " + this.job);
-    }
+    married: false
 };
 
-// james' first job
-james.sayJob();
+// set to the first property name of "james"
+var aProperty = "job";
 
-// change james' job to "super programmer" here
-james.job = "super programmer";
-
-// james' second job
-james.sayJob();
+// print the value of the first property of "james" 
+// using the variable "aProperty"
+console.log(james[aProperty]);
