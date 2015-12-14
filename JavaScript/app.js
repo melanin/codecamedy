@@ -1,14 +1,20 @@
-function Person(name,age) {
-  this.name = name;
-  this.age = age;
+function Dog (breed) {
+  this.breed = breed;
 }
 
-// Let's make bob again, using our constructor
-var bob = new Person("Bob Smith", 30);
-var susan = new Person("Susan Jordan", 35);
+// here we make buddy and teach him how to bark
+var buddy = new Dog("Golden Retriever");
+buddy.bark = function() {
+  console.log("Woof");
+};
+buddy.bark();
 
-// make your own class here
-function Circle(__radius)
+// here we make snoopy
+var snoopy = new Dog("Beagle");
+// we need you to teach snoopy how to bark here
+snoopy.bark = function()
 {
-    this.radius = __radius;
-}
+    console.log("Woof");
+};
+// this causes an error, because snoopy doesn't know how to bark!
+snoopy.bark();
