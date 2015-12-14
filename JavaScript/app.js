@@ -1,9 +1,7 @@
-// complete these definitions so that they will have
-// the appropriate types
-var anObj = { job: "I'm an object!" };
-var aNumber = 42;
-var aString = "I'm a string!";
+var myObj = {
+    // finish myObj
+    name: "MELA"
+};
 
-console.log(typeof anObj); // should print "object"
-console.log(typeof aNumber); // should print "number"
-console.log(typeof aString); // should print "string"
+console.log( myObj.hasOwnProperty('name') ); // should print true
+console.log( myObj.hasOwnProperty('nickname') ); // should print false
