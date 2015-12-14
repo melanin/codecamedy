@@ -17,9 +17,5 @@ function Penguin(name)
 // set its prototype to be a new instance of Animal
 Penguin.prototype = new Animal();
 
-var kingpin = new Penguin("kingpin");
-for(var property in kingpin)
-{
-    console.log(property + ": " + kingpin[property]);
-}
-kingpin.sayName();
+var penguin = new Penguin("kingpin");
+penguin.sayName();
