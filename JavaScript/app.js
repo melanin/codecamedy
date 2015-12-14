@@ -1,16 +1,16 @@
-var languages = {
-    english: "Hello!",
-    french: "Bonjour!",
-    notALanguage: 4,
-    spanish: "Hola!"
+function Dog (breed) {
+    this.breed = breed;
 };
 
-// print hello in the 3 different languages
-for(var lang in languages)
+// add the sayHello method to the Dog class 
+// so all dogs now can say hello
+Dog.prototype.sayHello = function()
 {
-    var greeting = languages[lang];
-    if("number" !== typeof greeting)
-    {
-        console.log(greeting);
-    }
+    console.log("Hello this is a " + this.breed + " dog");
 }
+
+var yourDog = new Dog("golden retriever");
+yourDog.sayHello();
+
+var myDog = new Dog("dachshund");
+myDog.sayHello();
