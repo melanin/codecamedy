@@ -1,12 +1,10 @@
-function Person(job, married) {
-    this.job = job;
-    this.married = married;
-    // add a "speak" method to Person!
-    this.speak = function()
-    {
-        console.log("Hello!");
-    };
-}
+var james = {
+    job: "programmer",
+    married: false,
+    speak: function(__feeling) {
+        console.log("Hello, I am feeling " + __feeling);
+    }
+};
 
-var user = new Person("Codecademy Student",false);
-user.speak();
+james.speak("great");
+james.speak("just okay");
