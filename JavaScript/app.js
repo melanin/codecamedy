@@ -1,16 +1,7 @@
-function Dog (breed) {
-    this.breed = breed;
-};
+// what is this "Object.prototype" anyway...?
+var prototypeType = typeof Object.prototype;
+console.log(prototypeType);
 
-// add the sayHello method to the Dog class 
-// so all dogs now can say hello
-Dog.prototype.sayHello = function()
-{
-    console.log("Hello this is a " + this.breed + " dog");
-}
-
-var yourDog = new Dog("golden retriever");
-yourDog.sayHello();
-
-var myDog = new Dog("dachshund");
-myDog.sayHello();
+// now let's examine it!
+var hasOwn = Object.prototype.hasOwnProperty("hasOwnProperty");
+console.log(hasOwn);
