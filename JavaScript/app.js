@@ -1,20 +1,16 @@
-function Dog (breed) {
-  this.breed = breed;
+function Person(name,age) {
+  this.name = name;
+  this.age = age;
 }
-
-// here we make buddy and teach him how to bark
-var buddy = new Dog("Golden Retriever");
-buddy.bark = function() {
-  console.log("Woof");
+// a function that prints the name of any given person
+var printPersonName = function (p) {
+  console.log(p.name);
 };
-buddy.bark();
 
-// here we make snoopy
-var snoopy = new Dog("Beagle");
-// we need you to teach snoopy how to bark here
-snoopy.bark = function()
-{
-    console.log("Woof");
-};
-// this causes an error, because snoopy doesn't know how to bark!
-snoopy.bark();
+var bob = new Person("Bob Smith", 30);
+printPersonName(bob);
+
+// make a person called me with your name and age
+// then use printPersonName to print your name
+var me = new Person("MELA", 32);
+printPersonName(me);
