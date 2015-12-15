@@ -1,18 +1,9 @@
-function StudentReport() {
-    var grade1 = 4;
-    var grade2 = 2;
-    var grade3 = 1;
-    this.getGPA = function() {
-        return (grade1 + grade2 + grade3) / 3;
-    };
-}
+//Create the object called cashRegister 
+//and initialize its total property
+var cashRegister = new Object();
+cashRegister.total = 0;
+console.log(cashRegister.total);
 
-var myStudentReport = new StudentReport();
-
-for(var x in myStudentReport) {
-    if(typeof myStudentReport[x] !== "function") {
-        console.log("Muahaha! " + myStudentReport[x]);
-    }
-}
-
-console.log("Your overall GPA is " + myStudentReport.getGPA());
+//Using dot notation change the total property
+cashRegister.total = 2.99;
+console.log(cashRegister.total);
