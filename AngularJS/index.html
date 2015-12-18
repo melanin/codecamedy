@@ -33,7 +33,9 @@
         </div>-->
         
         <div class="card" ng-repeat="app in apps">
-          <app-info info="{{ app }}"></app-info>
+          <app-info info="{{ app }}">
+            <install-app></install-app>
+          </app-info>
         </div>
       </div>
     </div>
